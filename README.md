@@ -27,6 +27,30 @@ The pipeline:
 
 ---
 
+## Power BI Dashboard
+
+The processed PostgreSQL analytics layer is connected to Power BI to create an interactive retail product analytics dashboard.
+
+### Dashboard Highlights
+
+- Total Products: 194
+- Total Inventory: ~10K
+- Average Price: ~1.57K
+- Average Rating: 3.80
+- Low Stock Products: 41
+
+### Dashboard Analysis
+
+- Product distribution by price range
+- Products by category
+- Inventory by category
+- Average price by category
+- Low-stock product monitoring
+
+![Retail Product Analytics Dashboard](docs/powerBI-dashboard.png)
+
+---
+
 ## Architecture
 
 ```mermaid
@@ -72,25 +96,3 @@ flowchart LR
 
     L --> N
     O --> B
-
-## Power BI Dashboard
-
-The processed PostgreSQL analytics layer is connected to Power BI to create an interactive retail product analytics dashboard.
-
-### Dashboard Highlights
-
-- Total Products: 194
-- Total Inventory: ~10K
-- Average Price: ~1.57K
-- Average Rating: 3.80
-- Low Stock Products: 41
-
-### Dashboard Analysis
-
-- Product distribution by price range
-- Products by category
-- Inventory by category
-- Average price by category
-- Low-stock product monitoring
-
-![Retail Product Analytics Dashboard](docs/powerBI-dashboard.png)
