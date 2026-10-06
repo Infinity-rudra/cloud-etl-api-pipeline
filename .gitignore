@@ -7,3 +7,5 @@ logs/
 data/state/
 data/rejected/
 data/audit/
+data/raw/
+data/processed/
