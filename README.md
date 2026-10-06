@@ -93,4 +93,4 @@ The processed PostgreSQL analytics layer is connected to Power BI to create an i
 - Average price by category
 - Low-stock product monitoring
 
-![Retail Product Analytics Dashboard](docs/powerbi_dashboard.png)
+![Retail Product Analytics Dashboard](docs/powerBI-dashboard.png)
