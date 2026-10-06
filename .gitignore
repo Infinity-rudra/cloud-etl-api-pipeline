@@ -9,3 +9,4 @@ data/rejected/
 data/audit/
 data/raw/
 data/processed/
+.env.txt
