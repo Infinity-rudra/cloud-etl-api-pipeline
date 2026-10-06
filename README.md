@@ -73,7 +73,7 @@ flowchart LR
     L --> N
     O --> B
 
-    ## Power BI Dashboard
+## Power BI Dashboard
 
 The processed PostgreSQL analytics layer is connected to Power BI to create an interactive retail product analytics dashboard.
 
